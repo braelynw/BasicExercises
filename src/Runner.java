@@ -6,10 +6,13 @@ public class Runner {
         bCar.setMiles(3000);
         bCar.toString();
 
+
         Rectangle newRect = new Rectangle(10, 10);
-        newRect.getArea();
-        newRect.getDiagonal();
-        newRect.isSquare();
+
+
+        System.out.println(newRect.getArea());
+        System.out.println(newRect.getDiagonal());
+        System.out.println(newRect.isSquare());
     }
 
 
